@@ -22,6 +22,9 @@ int main() {
     }
     std::cout << std::endl;
 
+
+
+
     // Use DescendingIterator to display elements in descending order
     std::cout << "Elements in cross order:\n";
     MagicalContainer::SideCrossIterator crossIter(container);
@@ -29,6 +32,10 @@ int main() {
         std::cout << *it << ' ';  // 2 25 3 17 9
     }
     std::cout << std::endl;
+
+
+
+
 
     // Use PrimeIterator to display prime numbers only
     std::cout << "Prime numbers:\n";
